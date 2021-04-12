@@ -5,7 +5,7 @@ slug: /
 
 ## Step 1: Generate a new Faction customer request through our Portal
 
-If you haven't already, generate a new Faction Request  using the classic template:
+If you haven't already, generate a new Request on Faction Portal using the classic template-this entire line changed:
 
 ```shell
 npx @docusaurus/init@latest init my-website classic
