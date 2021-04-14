@@ -2,12 +2,15 @@
 module.exports = {
   title: 'My Faction Documentation Engine Site',
   tagline: 'Blogs | Customer Information | Other Content',
-  url: 'https://my-website.com',
-  baseUrl: '/project1/',
+//  url: 'https://my-website.com',
+    url: 'https://github.com/Kimr970',
+  baseUrl: '/docusaurusTest1.git/',
+//  baseUrl: '/project1/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'factioninc/Kimr970', // Usually your GitHub org/user name.
+  //organizationName: 'factioninc/Kimr970', // Usually your GitHub org/user name.
+  organizationName: 'Kimr970', // Usually your GitHub org/user name.
   projectName: 'docusaurusTest1', // Usually your repo name.
   themeConfig: {
     colorMode: {
@@ -101,6 +104,7 @@ module.exports = {
           // Please change this to your repo.
            editUrl:
             'https://github.com/Kimr970/docusaurusTest1.git/',
+            //'https://github.com/Kimr970/docusaurusTest1/edit/master',
         },
         blog: {
           showReadingTime: true,
