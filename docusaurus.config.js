@@ -2,14 +2,23 @@
 module.exports = {
   title: 'My Faction Documentation Engine Site',
   tagline: 'Blogs | Customer Information | Other Content',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://my-website.com',
   baseUrl: '/project1/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'faction', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'factioninc/Kimr970', // Usually your GitHub org/user name.
+  projectName: 'docusaurusTest1', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+        disableSwitch: false,
+    },
+    
+    algolia: {
+        apiKey: "0f0dad529646d86477765db0afc10bc7",
+        indexName: "factiondocusaurus",
+        algoliaOptions: {},
+    },
     navbar: {
       title: 'Faction Doc Engine',
       logo: {
@@ -23,11 +32,17 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
+        //{
+         //  type: 'search',
+        //},
+         // {
+          // to: 'search', label: 'Search', position: 'right'
+         // },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          href: 'https://github.com/Kimr970/docusaurusTest1/blog',
+           // label: 'GitHub',
+           // position: 'right',
         },
       ],
     },
@@ -69,7 +84,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/Kimr970/docusaurusTest1',
             },
           ],
         },
@@ -84,14 +99,15 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://my-website/',
+           editUrl:
+            'https://github.com/Kimr970/docusaurusTest1.git/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          //  'https://github.com/Kimr970/docusaurusTest1.git/',
+              '/'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

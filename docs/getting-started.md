@@ -23,6 +23,11 @@ npx docusaurus start
 
 Open `docs/getting-started.md` and edit some lines. The site reloads automatically and display your changes.
 
+<img
+  src={require('/static/img/analytics_pic.png').default}
+  alt="Example banner"
+/>
+
 ## That's it!
 
 Congratulations! You've successfully run and modified your Docusaurus project.
